@@ -11,4 +11,3 @@ namespace BlazorBitconApp.DTOs
 }
 
 
-/* https://www.youtube.com/watch?v=fghFOg18LM4   3:22 minutos */
