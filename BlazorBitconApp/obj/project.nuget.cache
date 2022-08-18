@@ -1,11 +1,23 @@
 {
   "version": 2,
-  "dgSpecHash": "wQ92DhqdGQqmaZCLZDcSUipGvmq/P3BW+emlHT+CEoZL3hFAG+skNphu7ZDQiYlAKk04KHdZzKz4DAM0lGHVpQ==",
+  "dgSpecHash": "I9htoKeez0oTpTs/Dzxld7uQ0d7Cbqw4xoY/1syEzgI1Ut0E4XPSub2Ky1eTJchOC2rTHgBbPZVErzudancZyQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\geovane.3CRJ001217N\\source\\repos\\BlazorBitconApp\\BlazorBitconApp\\BlazorBitconApp.csproj",
+  "projectFilePath": "C:\\Users\\geovane.3CRJ001217N\\source\\repos\\BlazorBitconApp\\BlazorBitconApp\\BlazorBitcoinApp.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\geovane.3CRJ001217N\\.nuget\\packages\\awssdk\\2.3.55.2\\awssdk.2.3.55.2.nupkg.sha512",
     "C:\\Users\\geovane.3CRJ001217N\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\geovane.3CRJ001217N\\.nuget\\packages\\plotly.blazor\\2.12.0\\plotly.blazor.2.12.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'AWSSDK 2.3.55.2' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' em vez da estrutura de destino do projeto 'net5.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "AWSSDK",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
 }

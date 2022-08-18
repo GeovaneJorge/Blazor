@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     "net5.0": {
+      "AWSSDK/2.3.55.2": {
+        "type": "package",
+        "compile": {
+          "lib/net45/AWSSDK.dll": {}
+        },
+        "runtime": {
+          "lib/net45/AWSSDK.dll": {}
+        }
+      },
       "Newtonsoft.Json/13.0.1": {
         "type": "package",
         "compile": {
@@ -23,6 +32,28 @@
     }
   },
   "libraries": {
+    "AWSSDK/2.3.55.2": {
+      "sha512": "zy/6psTOx9c8LaZqL1tUtiGKMpd35b16TNRctz/N6Qc6hqFeOjyZ5WVhn89szJkkZtotcMFyfq58Y2RfyRxxUg==",
+      "type": "package",
+      "path": "awssdk/2.3.55.2",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "awssdk.2.3.55.2.nupkg.sha512",
+        "awssdk.nuspec",
+        "lib/net35/AWSSDK.dll",
+        "lib/net35/AWSSDK.pdb",
+        "lib/net45/AWSSDK.dll",
+        "lib/net45/AWSSDK.pdb",
+        "lib/portable-wpa+netcore45/AWSSDK.dll",
+        "lib/windows8/AWSSDK.dll",
+        "lib/windowsphone8/AWSSDK.dll",
+        "tools/account-management.ps1",
+        "tools/net35/install.ps1",
+        "tools/net45/install.ps1"
+      ]
+    },
     "Newtonsoft.Json/13.0.1": {
       "sha512": "ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
       "type": "package",
@@ -72,6 +103,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "AWSSDK >= 2.3.55.2",
       "Newtonsoft.Json >= 13.0.1",
       "Plotly.Blazor >= 2.12.0"
     ]
@@ -83,9 +115,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\geovane.3CRJ001217N\\source\\repos\\BlazorBitconApp\\BlazorBitconApp\\BlazorBitconApp.csproj",
-      "projectName": "BlazorBitconApp",
-      "projectPath": "C:\\Users\\geovane.3CRJ001217N\\source\\repos\\BlazorBitconApp\\BlazorBitconApp\\BlazorBitconApp.csproj",
+      "projectUniqueName": "C:\\Users\\geovane.3CRJ001217N\\source\\repos\\BlazorBitconApp\\BlazorBitconApp\\BlazorBitcoinApp.csproj",
+      "projectName": "BlazorBitcoinApp",
+      "projectPath": "C:\\Users\\geovane.3CRJ001217N\\source\\repos\\BlazorBitconApp\\BlazorBitconApp\\BlazorBitcoinApp.csproj",
       "packagesPath": "C:\\Users\\geovane.3CRJ001217N\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\geovane.3CRJ001217N\\source\\repos\\BlazorBitconApp\\BlazorBitconApp\\obj\\",
       "projectStyle": "PackageReference",
@@ -119,6 +151,10 @@
       "net5.0": {
         "targetAlias": "net5.0",
         "dependencies": {
+          "AWSSDK": {
+            "target": "Package",
+            "version": "[2.3.55.2, )"
+          },
           "Newtonsoft.Json": {
             "target": "Package",
             "version": "[13.0.1, )"
@@ -149,5 +185,17 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'AWSSDK 2.3.55.2' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' em vez da estrutura de destino do projeto 'net5.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "AWSSDK",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
 }

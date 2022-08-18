@@ -1,0 +1,7 @@
+C:\Users\geovane.3CRJ001217N\source\repos\BlazorBitconApp\BlazorBitconApp\obj\Debug\net5.0\BlazorBitcoinApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\geovane.3CRJ001217N\source\repos\BlazorBitconApp\BlazorBitconApp\obj\Debug\net5.0\BlazorBitcoinApp.AssemblyInfoInputs.cache
+C:\Users\geovane.3CRJ001217N\source\repos\BlazorBitconApp\BlazorBitconApp\obj\Debug\net5.0\BlazorBitcoinApp.AssemblyInfo.cs
+C:\Users\geovane.3CRJ001217N\source\repos\BlazorBitconApp\BlazorBitconApp\obj\Debug\net5.0\BlazorBitcoinApp.csproj.CoreCompileInputs.cache
+C:\Users\geovane.3CRJ001217N\source\repos\BlazorBitconApp\BlazorBitconApp\obj\Debug\net5.0\BlazorBitcoinApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\geovane.3CRJ001217N\source\repos\BlazorBitconApp\BlazorBitconApp\obj\Debug\net5.0\BlazorBitcoinApp.RazorAssemblyInfo.cache
+C:\Users\geovane.3CRJ001217N\source\repos\BlazorBitconApp\BlazorBitconApp\obj\Debug\net5.0\BlazorBitcoinApp.RazorAssemblyInfo.cs
