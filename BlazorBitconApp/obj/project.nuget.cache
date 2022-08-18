@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "wQ92DhqdGQqmaZCLZDcSUipGvmq/P3BW+emlHT+CEoZL3hFAG+skNphu7ZDQiYlAKk04KHdZzKz4DAM0lGHVpQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\geovane.3CRJ001217N\\source\\repos\\BlazorBitconApp\\BlazorBitconApp\\BlazorBitconApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\geovane.3CRJ001217N\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\geovane.3CRJ001217N\\.nuget\\packages\\plotly.blazor\\2.12.0\\plotly.blazor.2.12.0.nupkg.sha512"
+  ],
+  "logs": []
+}
